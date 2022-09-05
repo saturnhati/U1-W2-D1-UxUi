@@ -245,6 +245,24 @@ footer a {
  
 }
 
-@media screen and (min-width: 768px){
-    p {font-size: }
+@media screen and (min-width: 1024px){
+    main ul {margin: 2vh 0 2vh 5vh;}
+    main article {font-size: 2rem; width: 90%; margin: 2vh auto;}
+    aside h2 {font-size: 3rem;}
+    iframe {height: 28vh;}
+    table {margin: 3vh auto 6vh auto;}
+    tr {width: 100%}
+    .targetcategory {font-size: 1.5rem;}
+}
+
+@media print {
+    header {display: none;}
+    aside {display: none;}
+    footer {display: none;}
+    iframe {display: none;}
+    main {box-shadow: none}
+    .flex-container {display: none;}
+    .toTop {display: none;}
+    .social {display: none;}
+    body {font-size: 2.2rem; line-height: 1.55;};
 }
