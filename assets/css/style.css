@@ -246,11 +246,13 @@ footer a {
 }
 
 @media screen and (min-width: 1024px){
+    header {font-size: 1.6rem;}
     main ul {margin: 2vh 0 2vh 5vh;}
     main article {font-size: 2rem; width: 90%; margin: 2vh auto;}
     aside h2 {font-size: 3rem;}
+    aside a {font-size: 2rem;}
     iframe {height: 28vh;}
-    table {margin: 3vh auto 6vh auto;}
+    table {max-width: 70%; width: 100%;}
     tr {width: 100%}
     .targetcategory {font-size: 1.5rem;}
 }
