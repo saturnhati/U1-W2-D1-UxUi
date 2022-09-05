@@ -152,7 +152,7 @@ iframe {
 
 /* TABELLE */
 table {
-    margin-bottom: 2em;
+    margin: 0 auto 2em auto;
 }
 caption {
     font-weight: bold;
