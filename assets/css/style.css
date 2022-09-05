@@ -45,7 +45,6 @@ header {
     box-shadow: 0 3px 3px #444;
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
-    position: sticky;
     top: 0;
     z-index: 10;
 }
@@ -60,9 +59,9 @@ header nav li {
     display: inline-block;
     margin-right: 10px;
 }
-    header nav li:last-child {
+    /* header nav li:last-child {
         margin-right: 0;
-    }
+    } */
 header nav li a {
     color: white;
     text-decoration: none;
@@ -228,4 +227,24 @@ footer {
 }
 footer a {
     color: fuchsia;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px){
+    aside div {display: inline-block; width: 32.9%;}
+    header img {float: left; margin-top: 2.5vh;}
+    header {height: 16rem;}
+    nav {float: right; display: flex; flex-direction: column; justify-content: flex-end;}
+    header ul {display: flex; flex-direction: column; align-items: flex-end;}
+    header nav li a::before {content: none;}
+    table {max-width: 32.9%; margin: 4vh auto 6vh auto;}
+    iframe {width: 45%;}
+    section {width: 45%;}
+    .flex-container {display: flex; align-items: center; justify-content: space-around;} 
+ 
+}
+
+@media screen and (min-width: 768px){
+    p {font-size: }
 }
